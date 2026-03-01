@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rivra Corporation — Download</title>
-  <meta name="description" content="Download Rivra Platform — enterprise-grade software engineered for performance and scale." />
+  <meta name="description" content="Download games by Rivra Corporation." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,0 100,25 100,75 50,100 0,75 0,25' fill='%230A0A0C' stroke='%23C9A84C' stroke-width='6'/><text y='.9em' font-size='60' x='50%' text-anchor='middle' fill='%23C9A84C' font-family='serif' font-weight='bold'>R</text></svg>" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
+
   <div id="cursor-outer"></div>
   <div id="cursor-inner"></div>
   <canvas id="three-canvas"></canvas>
@@ -31,6 +32,7 @@
       <span></span><span></span><span></span>
     </button>
   </header>
+
   <div class="mobile-nav">
     <a href="index.html">Home</a>
     <a href="download.html">Download</a>
@@ -43,117 +45,55 @@
     <!-- PAGE HERO -->
     <div class="page-hero">
       <div class="page-hero-inner">
-        <div class="section-label reveal">Software</div>
-        <h1 class="reveal reveal-delay-1"><em>Download</em> Rivra Platform</h1>
+        <div class="section-label reveal">Games</div>
+        <h1 class="reveal reveal-delay-1"><em>Download</em> Our Games</h1>
       </div>
     </div>
 
-    <!-- MAIN DOWNLOAD -->
+    <!-- DOWNLOAD SECTION -->
     <section class="section download-section">
       <div class="section-inner">
+
         <div class="download-card-wrap">
-          <div class="gold-card reveal" style="padding: 64px 48px;">
-            <div class="dl-product-icon reveal">&#10022;</div>
-            <div class="dl-name reveal reveal-delay-1">Rivra Platform</div>
-            <div class="dl-version reveal reveal-delay-1">Version 4.2.1 &nbsp;·&nbsp; Latest Stable Release</div>
-            <p class="dl-desc reveal reveal-delay-2">
-              The Rivra Platform is a comprehensive enterprise software suite encompassing workflow automation, real-time analytics, AI-powered insights, and seamless cloud integration. Trusted by Fortune 500 companies, it delivers unmatched performance, security, and scalability for organizations demanding the best.
+
+          <!-- GAME 1 -->
+          <div class="gold-card reveal" style="padding: 56px 48px; margin-bottom:48px;">
+            <div class="dl-product-icon">&#9876;</div>
+            <div class="dl-name">64 KNIGHTS</div>
+            <div class="dl-version">Game Installer</div>
+
+            <p class="dl-desc">
+              A strategic, fast-paced action game built around tactical decision-making,
+              progression systems, and immersive gameplay mechanics.
             </p>
-            <div class="dl-btn-wrap reveal reveal-delay-3">
-              <a href="#" class="btn btn-gold btn-dl" onclick="handleDownload(event)">
-                &#8659; &nbsp; Download Now — Free
+
+            <div class="dl-btn-wrap">
+              <!-- GOOGLE DRIVE LINK TO BE ADDED -->
+              <a href="https://drive.google.com/file/d/1VXcajVXb5mH74J92boNtrHsslF5zPP-J/view?usp=sharing" target="_blank" class="btn btn-gold btn-dl">
+                &#8659; Download Installer
               </a>
             </div>
-
-            <!-- Tabs for OS -->
-            <div class="reveal reveal-delay-3" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:32px;">
-              <button class="btn btn-outline os-tab active-tab" data-os="windows" onclick="selectOS(this,'windows')" style="padding:10px 24px; font-size:0.8rem;">
-                &#9713; Windows
-              </button>
-              <button class="btn btn-outline os-tab" data-os="mac" onclick="selectOS(this,'mac')" style="padding:10px 24px; font-size:0.8rem;">
-                &#63743; macOS
-              </button>
-              <button class="btn btn-outline os-tab" data-os="linux" onclick="selectOS(this,'linux')" style="padding:10px 24px; font-size:0.8rem;">
-                &#9670; Linux
-              </button>
-            </div>
-
-            <!-- System Requirements -->
-            <div class="reveal reveal-delay-4" style="background:var(--bg2); border:1px solid var(--border); padding:36px;">
-              <div class="section-label" style="margin-bottom:20px;">System Requirements</div>
-              <div class="sysreq-grid" id="sysreq-content">
-                <!-- Windows default -->
-                <div class="sysreq-item">
-                  <h5>Operating System</h5>
-                  <p>Windows 10 / 11 (64-bit)</p>
-                </div>
-                <div class="sysreq-item">
-                  <h5>Processor</h5>
-                  <p>Intel Core i5 / AMD Ryzen 5 or higher</p>
-                </div>
-                <div class="sysreq-item">
-                  <h5>Memory</h5>
-                  <p>8 GB RAM minimum · 16 GB recommended</p>
-                </div>
-                <div class="sysreq-item">
-                  <h5>Storage</h5>
-                  <p>4 GB available disk space (SSD recommended)</p>
-                </div>
-                <div class="sysreq-item">
-                  <h5>Network</h5>
-                  <p>Broadband Internet connection required</p>
-                </div>
-                <div class="sysreq-item">
-                  <h5>Runtime</h5>
-                  <p>.NET 6.0+ / Visual C++ Redistributable</p>
-                </div>
-              </div>
-            </div>
-
           </div>
-        </div>
 
-        <!-- Feature highlights -->
-        <div style="margin-top: 80px; text-align:center;">
-          <div class="section-label reveal" style="display:flex; justify-content:center;">Included In This Release</div>
-          <h2 class="section-title reveal reveal-delay-1" style="text-align:center;">What's <em>Inside</em></h2>
-          <div class="gold-line reveal reveal-delay-1" style="margin:18px auto;"></div>
-          <div class="services-grid" style="margin-top:48px; text-align:left;">
-            <div class="gold-card reveal reveal-delay-1" style="padding:36px 32px;">
-              <div class="service-icon">&#10022;</div>
-              <h3 style="font-family:var(--font-display);font-size:1.3rem;margin-bottom:10px;">Unified Dashboard</h3>
-              <p style="color:var(--gray);font-size:0.9rem;line-height:1.8;">Centralised control panel for all modules with real-time performance metrics and customizable KPI widgets.</p>
-            </div>
-            <div class="gold-card reveal reveal-delay-2" style="padding:36px 32px;">
-              <div class="service-icon">&#9670;</div>
-              <h3 style="font-family:var(--font-display);font-size:1.3rem;margin-bottom:10px;">AI Engine v3</h3>
-              <p style="color:var(--gray);font-size:0.9rem;line-height:1.8;">Next-generation machine learning pipeline for predictive analytics and automated decision workflows.</p>
-            </div>
-            <div class="gold-card reveal reveal-delay-3" style="padding:36px 32px;">
-              <div class="service-icon">&#9679;</div>
-              <h3 style="font-family:var(--font-display);font-size:1.3rem;margin-bottom:10px;">Zero-Trust Security</h3>
-              <p style="color:var(--gray);font-size:0.9rem;line-height:1.8;">End-to-end encryption, multi-factor authentication, and SOC 2 Type II compliant data handling.</p>
+          <!-- GAME 2 -->
+          <div class="gold-card reveal reveal-delay-1" style="padding: 56px 48px;">
+            <div class="dl-product-icon">&#8721;</div>
+            <div class="dl-name">MATHSTERRITORY</div>
+            <div class="dl-version">Game Installer</div>
+
+            <p class="dl-desc">
+              An educational strategy game that blends problem-solving,
+              logic, and mathematical thinking into an engaging experience.
+            </p>
+
+            <div class="dl-btn-wrap">
+              <!-- GOOGLE DRIVE LINK TO BE ADDED -->
+              <a href="https://drive.google.com/file/d/1AV0Q9Z6sfw7wZbd_KXgyuUqPnoq25mq2/view?usp=sharing" target="_blank" class="btn btn-gold btn-dl">
+                &#8659; Download Installer
+              </a>
             </div>
           </div>
-        </div>
 
-        <!-- Changelog teaser -->
-        <div class="gold-card reveal" style="margin-top:60px; padding:40px 48px; max-width:680px; margin-left:auto; margin-right:auto;">
-          <div class="section-label" style="margin-bottom:14px;">v4.2.1 Changelog</div>
-          <ul style="list-style:none; padding:0; color:var(--gray); font-size:0.9rem; line-height:2.2;">
-            <li style="border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:10px;">
-              <span style="color:var(--gold); margin-right:10px;">&#43;</span> New AI-powered workflow suggestions engine
-            </li>
-            <li style="border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:10px;">
-              <span style="color:var(--gold); margin-right:10px;">&#43;</span> Dark mode improvements and refined UI tokens
-            </li>
-            <li style="border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:10px;">
-              <span style="color:#e05c5c; margin-right:10px;">&#x2715;</span> Fixed memory leak in analytics module
-            </li>
-            <li style="padding-bottom:0;">
-              <span style="color:var(--gold); margin-right:10px;">&#8593;</span> Performance improvements — 40% faster data processing
-            </li>
-          </ul>
         </div>
 
       </div>
@@ -171,6 +111,7 @@
           </a>
           <p>Delivering precision-engineered technology solutions that power the enterprises of tomorrow.</p>
         </div>
+
         <div class="footer-col">
           <h4>Pages</h4>
           <a href="index.html">Home</a>
@@ -178,18 +119,21 @@
           <a href="about.html">About Us</a>
           <a href="contact.html">Contact</a>
         </div>
+
         <div class="footer-col">
           <h4>Resources</h4>
           <a href="#">Documentation</a>
           <a href="#">Release Notes</a>
           <a href="#">System Status</a>
         </div>
+
         <div class="footer-col">
           <h4>Contact</h4>
           <a href="mailto:corporationrivra@gmail.com">corporationrivra@gmail.com</a>
           <a href="contact.html">Send Message</a>
         </div>
       </div>
+
       <div class="footer-bottom">
         <p>&copy; 2025 Rivra Corporation. All rights reserved.</p>
         <div class="footer-socials">
@@ -201,58 +145,5 @@
     </div>
   </footer>
 
-  <script>
-    const sysReqs = {
-      windows: [
-        { title: 'Operating System', text: 'Windows 10 / 11 (64-bit)' },
-        { title: 'Processor', text: 'Intel Core i5 / AMD Ryzen 5 or higher' },
-        { title: 'Memory', text: '8 GB RAM minimum · 16 GB recommended' },
-        { title: 'Storage', text: '4 GB available disk space (SSD recommended)' },
-        { title: 'Network', text: 'Broadband Internet connection required' },
-        { title: 'Runtime', text: '.NET 6.0+ / Visual C++ Redistributable' },
-      ],
-      mac: [
-        { title: 'Operating System', text: 'macOS 12 Monterey or later' },
-        { title: 'Processor', text: 'Apple M1 / Intel Core i5 or better' },
-        { title: 'Memory', text: '8 GB RAM minimum · 16 GB recommended' },
-        { title: 'Storage', text: '4 GB available disk space' },
-        { title: 'Network', text: 'Broadband Internet connection required' },
-        { title: 'Runtime', text: 'macOS Developer Tools (auto-installed)' },
-      ],
-      linux: [
-        { title: 'Operating System', text: 'Ubuntu 20.04 / Debian 11 / Fedora 36+' },
-        { title: 'Processor', text: 'x86_64 architecture, dual-core 2GHz+' },
-        { title: 'Memory', text: '8 GB RAM minimum · 16 GB recommended' },
-        { title: 'Storage', text: '4 GB available disk space' },
-        { title: 'Network', text: 'Broadband Internet connection required' },
-        { title: 'Runtime', text: 'glibc 2.31+ / OpenSSL 1.1+' },
-      ],
-    };
-
-    function selectOS(btn, os) {
-      document.querySelectorAll('.os-tab').forEach(b => b.classList.remove('active-tab'));
-      btn.classList.add('active-tab');
-      const reqs = sysReqs[os];
-      const container = document.getElementById('sysreq-content');
-      container.innerHTML = reqs.map(r => `
-        <div class="sysreq-item">
-          <h5>${r.title}</h5>
-          <p>${r.text}</p>
-        </div>`).join('');
-    }
-
-    function handleDownload(e) {
-      e.preventDefault();
-      const btn = e.currentTarget;
-      const orig = btn.innerHTML;
-      btn.innerHTML = '&#10003; &nbsp; Preparing Download…';
-      btn.style.pointerEvents = 'none';
-      setTimeout(() => {
-        btn.innerHTML = orig;
-        btn.style.pointerEvents = '';
-        alert('Download link would be provided here. Connect your actual file URL in the href attribute.');
-      }, 1600);
-    }
-  </script>
 </body>
 </html>
